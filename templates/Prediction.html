@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="stylesheet" href="../static/Prediction.css">
+</head>
+<body>
+    <div class="container">
+        <p class="title">Flower prediction form</p>
+        <img src="../static/flower.svg" class="flower-svg">
+        <form action="/prediction" method = "post">
+            <div class="sepalLength">
+                <span>Sepal Length</span>
+                <input type="text" name="sepalLength">
+            </div>
+            <div class="petalLength">
+                <span>Petal Length</span>
+                <input type="text" name="petalLength">
+            </div>
+            <button>Predict</button>    
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fond noir pour toute la page */
+    color: #ffffff; /* Texte en blanc pour contraster avec le fond noir */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Setosa {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4CAF50; /* Couleur verte pour rappeler la nature */
+}
+.Versicolor{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+h1 {
+    font-size: 48px;
+    color: #FF77FF; /* Texte blanc pour un contraste élevé */
+}
+h2{
+    font-size: 48px;
+    color: #00FFFF; 
+}
+.flower-svg {
+    width: 150px; /* Largeur spécifique de l'image */
+    height: auto; /* Maintenir le ratio d'aspect */
+    margin-bottom: 20px; 
+}
